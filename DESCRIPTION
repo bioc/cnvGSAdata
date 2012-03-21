@@ -1,0 +1,11 @@
+Package: cnvGSAdata
+Title: Data used in the vignette of the cnvGSA package
+Version: 0.99.1
+Author: Robert Ziman <rziman@gmail.com>
+Description: This package contains the data used in the vignette of the
+        cnvGSA package.
+Maintainer: Robert Ziman <rziman@gmail.com>
+License: LGPL
+biocViews: ExperimentData
+Depends: R (>= 2.10), cnvGSA
+Packaged: 2012-03-16 00:16:31 UTC; robert
