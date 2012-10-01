@@ -1,6 +1,6 @@
 Package: cnvGSAdata
 Title: Data used in the vignette of the cnvGSA package
-Version: 0.99.2
+Version: 0.99.3
 Author: Robert Ziman <rziman@gmail.com>
 Description: This package contains the data used in the vignette of the
         cnvGSA package.
