@@ -1,25 +1,25 @@
 \name{cnvGSA_output_example.RData}
 \alias{cnvGSA_output_example.RData}
-\alias{output}
+\alias{cnvGSA.out}
 \docType{data}
 \title{cnvGSA example output}
 \description{
 Saved output from the full workflow example in the \code{cnvGSA} vignette.
 }
 \details{
-	The dataset contains \code{output}, a single object of class \code{CnvGSAOutput} as defined in the \code{cnvGSA} package. \code{CnvGSAOutput} is a simple S4 class containing a slot for each data structure output by \code{cnvGSAFisher} (the main function in the package):
+	The dataset contains \code{cnvGSA.out}, a single object of class \code{CnvGSAOutput} as defined in the \code{cnvGSA} package. \code{CnvGSAOutput} is a simple S4 class containing a slot for each data structure output by \code{cnvGSAlogRegTest} (the main function in the package):
 
 	\describe{
-		\item{\code{cnvData}}{}
-		\item{\code{enrRes}}{}
-		\item{\code{burdenSample}}{}
-		\item{\code{burdenGs}}{}
-		\item{\code{geneData}}{}
+		\item{\code{res.ls}}{}
+		\item{\code{gsTables.ls}}{}
+		\item{\code{gsData.ls}}{}
+		\item{\code{phData.ls}}{}
+		\item{\code{config.df}}{}
 	}
-
-	cnvData contains the original and filtered CNV data, enrRes contains the gene-set enrichment
-	results, and burdenSample, burdenGs, and geneData contain burden analysis and
-	gene-centric statistics that can be used to ensure the validity of the enrichment results.
+	
+	res.ls contains the output from the regression tests, gsTables.ls contains the the gene-set tables, gsData.ls 
+	contains the gene-set data needed for other scripts, phData.ls contains the phenotype/covariate data and config.df 
+	contains the config data frame that allows the other scripts to read in the params.
 
 	See the \code{cnvGSA} vignette for complete details and discussion.
 }
