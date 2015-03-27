@@ -16,6 +16,7 @@ Data used in the examples and vignette of the cnvGSA package
 	\code{\link{kl_gene_AGP_demo.txt}} - genes of interest data
 	\code{\link{kl_loci_AGP_demo.txt}} - known loci data
 	\code{\link{ph_AGP_demo.txt}} - phenotype/covariate data
+	\code{\link{gene_ID_demo.txt}} - gene ID file 
 
 	Pre-built input:
 	\code{\link{cnvGSA_input_example.RData}}
