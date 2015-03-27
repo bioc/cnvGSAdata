@@ -1,7 +1,7 @@
 \name{ph_AGP_demo.txt}
 \alias{ph_AGP_demo.txt}
 \docType{data}
-\title{Rare CNV data from Pinto et al. 2014 ASD study}
+\title{Covariate/phenotype data from Pinto et al. 2014 ASD study}
 \description{
 The file contains covariate/phenotype data similar to that used in the Pinto et al. 2014 ASD study.
 }
