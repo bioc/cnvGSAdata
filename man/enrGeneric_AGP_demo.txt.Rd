@@ -14,5 +14,5 @@ Pinto, D et al. Functional impact of global rare copy number variation in autism
 \examples{
 library( "cnvGSAdata" )
 enrFile       <- system.file( "extdata", "enrGeneric_AGP_demo.txt", package="cnvGSAdata" )
-enrGeneric.df <- read.table (enrFile, header = T, sep = "\t", quote = "\"", stringsAsFactors = F)
+enrGeneric.df <- read.table (enrFile, header = TRUE, sep = "\t", quote = "\"", stringsAsFactors = FALSE)
 }

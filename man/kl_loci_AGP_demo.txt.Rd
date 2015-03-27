@@ -14,5 +14,5 @@ Pinto, D et al. Convergence of Genes and Cellular Pathways Dysregulated in Autis
 \examples{
 library( "cnvGSAdata" )
 lociFile    <- system.file( "extdata", "kl_loci_AGP_demo.txt", package="cnvGSAdata" )
-kl_loci.df  <- read.table (lociFile, header = T, sep = "\t", quote = "\"", stringsAsFactors = F)
+kl_loci.df  <- read.table (lociFile, header = TRUE, sep = "\t", quote = "\"", stringsAsFactors = FALSE)
 }
