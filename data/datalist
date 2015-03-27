@@ -1,2 +1,2 @@
-cnvGSA_input_example: input
-cnvGSA_output_example: output
+cnvGSA_input_example: cnvGSA.in
+cnvGSA_output_example: cnvGSA.out
