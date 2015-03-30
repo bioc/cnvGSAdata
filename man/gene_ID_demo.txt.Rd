@@ -9,7 +9,6 @@ The file contains Entrez gene ID's
 The data is stored in a format that look like (geneID) -tab- (Symbol) -tab- (Name).
 }
 \examples{
-library( "cnvGSAdata" )
-cnvFile <- system.file( "extdata", "gene_ID_demo.txt", package="cnvGSAdata" )
-cnv.df  <- read.table (cnvFile, header = TRUE, sep = "\t", quote = "\"", stringsAsFactors = FALSE)
+geneIDFile <- system.file( "extdata", "gene_ID_demo.txt", package="cnvGSAdata" )
+geneID.df  <- read.table (geneIDFile, header = TRUE, sep = "\t", quote = "\"", stringsAsFactors = FALSE)
 }

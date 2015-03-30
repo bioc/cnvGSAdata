@@ -12,7 +12,6 @@ The data is stored in a generic file format which can be seen here \url{http://w
 Pinto, D et al. Functional impact of global rare copy number variation in autism spectrum disorders. \emph{Nature.} 2010 Jul 15; 466(7304): 368--72.
 }
 \examples{
-library( "cnvGSAdata" )
 enrFile       <- system.file( "extdata", "enrGeneric_AGP_demo.txt", package="cnvGSAdata" )
 enrGeneric.df <- read.table (enrFile, header = TRUE, sep = "\t", quote = "\"", stringsAsFactors = FALSE)
 }

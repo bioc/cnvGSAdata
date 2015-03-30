@@ -12,7 +12,6 @@ This file is used to provide the loci of certain genes and this will affect the 
 Pinto, D et al. Convergence of Genes and Cellular Pathways Dysregulated in Autism Spectrum Disorders. \emph{Am J Hum Genet.} 2014 May 1; 94(5): 677--694.
 }
 \examples{
-library( "cnvGSAdata" )
-lociFile    <- system.file( "extdata", "kl_loci_AGP_demo.txt", package="cnvGSAdata" )
-kl_loci.df  <- read.table (lociFile, header = TRUE, sep = "\t", quote = "\"", stringsAsFactors = FALSE)
+klLociFile <- system.file( "extdata", "kl_loci_AGP_demo.txt", package="cnvGSAdata" )
+kl_loci.df <- read.table (klLociFile, header = TRUE, sep = "\t", quote = "\"", stringsAsFactors = FALSE)
 }

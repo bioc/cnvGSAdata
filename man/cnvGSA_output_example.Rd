@@ -1,5 +1,5 @@
-\name{cnvGSA_output_example.RData}
-\alias{cnvGSA_output_example.RData}
+\name{cnvGSA\_output\_example.RData}
+\alias{cnvGSA\_output\_example.RData}
 \alias{cnvGSA.out}
 \docType{data}
 \title{cnvGSA example output}

@@ -12,8 +12,6 @@ This file is used to provide the genes of interest that will be looked at in the
 Pinto, D et al. Convergence of Genes and Cellular Pathways Dysregulated in Autism Spectrum Disorders. \emph{Am J Hum Genet.} 2014 May 1; 94(5): 677--694.
 }
 \examples{
-library( "cnvGSAdata" )
-geneFile    <- system.file( "extdata", "kl_gene_AGP_demo.txt", package="cnvGSAdata" )
-kl_gene.df  <- read.table (geneFile, header = TRUE, sep = "\t", quote = "\"", stringsAsFactors = FALSE)
+klGeneFile <- system.file( "extdata", "kl_gene_AGP_demo.txt", package="cnvGSAdata" )
+kl_gene.df <- read.table (klGeneFile, header = TRUE, sep = "\t", quote = "\"", stringsAsFactors = FALSE)
 }
-

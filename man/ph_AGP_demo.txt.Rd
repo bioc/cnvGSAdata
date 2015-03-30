@@ -12,7 +12,6 @@ The data is stored in a format that is a subset of the the CNV data. It includes
 Pinto, D et al. Convergence of Genes and Cellular Pathways Dysregulated in Autism Spectrum Disorders. \emph{Am J Hum Genet.} 2014 May 1; 94(5): 677--694.
 }
 \examples{
-library( "cnvGSAdata" )
-cnvFile <- system.file( "extdata", "ph_AGP_demo.txt", package="cnvGSAdata" )
-cnv.df  <- read.table (cnvFile, header = TRUE, sep = "\t", quote = "\"", stringsAsFactors = FALSE)
+phFile <- system.file( "extdata", "ph_AGP_demo.txt", package="cnvGSAdata" )
+ph.df  <- read.table (phFile, header = TRUE, sep = "\t", quote = "\"", stringsAsFactors = FALSE)
 }

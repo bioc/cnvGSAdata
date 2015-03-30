@@ -19,10 +19,10 @@ Data used in the examples and vignette of the cnvGSA package
 	\code{\link{gene_ID_demo.txt}} - gene ID file 
 
 	Pre-built input:
-	\code{\link{cnvGSA_input_example.RData}}
+	\code{\link{cnvGSA\_input\_example.RData}}
 
 	Saved output:
-	\code{\link{cnvGSA_output_example.RData}}
+	\code{\link{cnvGSA\_output\_example.RData}}
 
 	Pre-built Gene-set data:
 	\code{\link{gs_data_example.RData}}

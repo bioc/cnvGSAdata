@@ -12,8 +12,7 @@ The data is stored in the Gene Matrix Transposed format \url{http://www.baderlab
 Pinto, D et al. Convergence of Genes and Cellular Pathways Dysregulated in Autism Spectrum Disorders. \emph{Am J Hum Genet.} 2014 May 1; 94(5): 677--694.
 }
 \examples{
-library( "cnvGSAdata" )
 gmtFile <- system.file( "extdata", "enrGMT_AGP_demo.gmt", package="cnvGSAdata" )
-no_col <- max(count.fields(gmtFile, sep = "\t"))
-gmt.df <- read.table(gmtFile,sep="\t",fill=TRUE,col.names=1:no_col)
+no_col  <- max(count.fields(gmtFile, sep = "\t"))
+gmt.df  <- read.table(gmtFile,sep="\t",fill=TRUE,col.names=1:no_col)
 }
