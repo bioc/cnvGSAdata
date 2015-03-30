@@ -1,5 +1,5 @@
-\name{cnvGSA\_input\_example.RData}
-\alias{cnvGSA\_input\_example.RData}
+\name{cnvGSA_input_example.RData}
+\alias{cnvGSA_input_example.RData}
 \alias{cnvGSA.in}
 \docType{data}
 \title{cnvGSA example input}
