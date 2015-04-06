@@ -1,2 +1,0 @@
-geneID	Symbol	TYPE
-9378	NRXN1	1
