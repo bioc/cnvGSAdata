@@ -1,0 +1,2 @@
+geneID	TYPE
+9378	1
